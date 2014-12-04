@@ -19,6 +19,12 @@ set expandtab
 set shiftwidth=4
 set bg=dark
 set backspace=indent,eol,start
+set hlsearch
+set cursorline
+
+" file encoding
+set fileencodings=utf-8
+set encoding=utf-8
 
 " for snippets
 let g:UltiSnipsExpandTrigger="<tab>"
